@@ -1,1 +1,1 @@
-# Python-Brownian-Motion
+Brownian Motion Simulation
