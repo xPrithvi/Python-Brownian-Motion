@@ -15,7 +15,7 @@ class BulkParticle():
         self.y_pos = y_pos
         self.body = pymunk.Body()
         self.body.position = self.x_pos, self.y_pos
-        self.body.velocity = random.uniform(-10, 10), random.uniform(-10, 10)
+        self.body.velocity = 0, 0
         self.shape = pymunk.Circle(self.body, 25)
         self.shape.density = 1
         self.shape.elasticity = 1
